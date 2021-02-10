@@ -150,6 +150,7 @@ header .top{
     color: #0c0773;
     font-size: 36px;
     margin-top: 25px;
+    text-decoration: underline;
 }
 
 .wellcome p{
@@ -172,8 +173,9 @@ header .top{
     padding-right: 10px;
 }
 
-.showCase2 h1{
+.showCase2 h2{
     margin-bottom: 10px;
+    color: #0c0773;
 }
 .subjects .container{
     display: flex;
@@ -212,16 +214,16 @@ header .top{
     margin-bottom: 30px;
 }
 
-
-
-
 .footer .container .cards{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin-bottom: 25px;
 }
 
-
+.footer .container .cards h2{
+    color: #0c0773;
+    padding-bottom: 10px;
+}
 
 /* Style all font awesome icons */
 .fa {
